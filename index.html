@@ -1,0 +1,111 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title> Introducing myself </title>
+    <meta charset="utf-8">
+    <style>
+      body{
+        margin:0;
+      }
+      a{
+        color: black;
+        text-decoration: none;
+      }
+      h1{
+        font-size:45px;
+        text-align: center;
+        border-bottom:1px solid gray;
+        margin:0;
+        padding:20px;
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 200px 1fr;
+      }
+      ol{
+        border-right: 1px solid gray;
+        width:150px;
+        margin:0;
+        padding:20px;
+      }
+      #grid ol{
+        padding-left:33px;
+      }
+      #grid #article{
+        padding-left:25px;
+        height: 1000px;
+      }
+      @media(max-width:800px){
+        #grid{
+          display: block;
+        }
+        ol{
+          border-right:none;
+        }
+        h1{
+          border-bottom:none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1><a href = "index.html"> 와플 스튜디오 지원서 </a></h1>
+    <div id = "grid">   
+        <ol>
+            <li><a href="#intro"> 인적 사항 </a></li>
+            <li><a href="#motivation"> 지원 동기 </a></li>
+            <li><a href="#dev_history"> 개발 관련 경험 </a></li>
+            <li><a href="#dev_skill"> 개발 관련 지식 </a></li>
+            
+        </ol>
+        <div id = "article">
+          <div id = "intro">
+            <h2>인적 사항</h2>
+            <ul>
+              <li>이름: 정소영</li>
+              <li>소속: 자유전공학부</li>
+              <li>전공: 컴퓨터공학 / 디지털인문학: 동아시아</li>
+              <li>전화번호: 010-7768-0771</li>
+              <li>메일 주소: ttoru96jk@gmail.com</li>
+            </ul>
+          </div>
+
+          <div id = "dev_history">
+            <h2>개발 관련 경험</h2>
+            <ul>
+              <li>(2018년도 2학기) Apache-MySQL-PHP(AMP) 구조를 이용하여 웹포럼 만들기</li>
+              <p>제가 처음으로 만들어 본 웹 어플리케이션은 AMP 구조를 이용하여 만든 웹포럼이었습니다. 
+                 2018년도 2학기에 북경대학교로 교환학생을 갔었는데, 그 때 수강했던 데이터베이스 수업의 과제가 웹포럼을 만드는 것이었습니다.
+                 당시의 저는 웹에 대해 지식이 전무했기에, 온라인의 자료들과 동영상을 참고해가며 웹이 동작하는 기본적인 원리 및 HTML과 CSS를 익힌 뒤,
+                 AMP 구조로 웹포럼을 만들기 위해 알아야 하는 프레임워크들(PHP, MySQL)을 차례로 공부했습니다. 처음 웹 개발을 해보면서 
+                 이전까지 서울대학교의 전공필수 수업에서 했던 과제와는 달리, 가시적이고 실제로 사람들이 사용할 수 있는 결과물을 만드는 과정에 큰 흥미를 느꼈고,
+                 다른 프레임워크들도 공부하여 더 완성도 높은 어플리케이션을 만들고 싶다고 생각하게 되었습니다.  
+              </p>
+              <li>(2018년도 겨울방학) d3.js로 visualization 툴 개발해보기</li>
+              <p>2018년도 겨울방학에 SAP Labs Korea라는 회사에서 학부생 인턴으로서 일하면서 d3.js를 사용해 visualization 툴을 개발해보았습니다.
+              복잡하고 거대한 규모의 log를 효과적으로 시각화하는 것이 목표였고, 주요 프레임워크는 javascript와 그의 wrapper library인 d3.js였습니다.
+              이 프로젝트를 통해 javascript와 여러 다른 브라우저들의 각각의 특징에 대해 공부할 수 있었고, 특히 프론트엔드를 더 심층적으로 이해하는 계기가 되었습니다. 
+              </p>
+
+            </ul>
+          </div>
+          <div id = "motivation">
+            <h2>지원 동기</h2>
+            <p>웹/앱 개발에 대한 공부를 같이 할 친구들을 만나고 싶어서 와플 스튜디오에 지원하게 되었습니다. 
+            자유전공학부 소속인지라 주변에 웹/앱 개발에 관심있는 친구들이 비교적 적은데, 와플 스튜디오에 꼭 합격해서 관심사가 비슷한 분들과 재미있고 
+            영향력 있는 어플리케이션을 만들고 싶습니다!!
+            아직 공부를 시작하지는 못했지만, 안드로이드 앱 개발에도 관심을 두고 있고, 특히 모바일에서 머신러닝을 적용한 어플리케이션을 만들어 보는 것이 
+            장기적인 목표입니다. 
+            </p>
+          </div>          
+          <div id = "dev_skill">
+            <h2>개발 관련 지식</h2>
+            <p>PHP, MySQL, Javascript에 대해 초보적인 지식을 갖추었으며, 온라인 상의 자료나 도큐먼트를 읽어가며 개발에 활용할 수 있는 정도입니다.
+               그 밖에 사용해 본 라이브러리는 d3.js 와 dagre-d3.js 라는, 시각화에 특화된 javascript wrapper library들입니다. 
+            </p>
+            <p>(개발 용도 외의 사용할 줄 아는 프로그래밍 언어) C, C++, Java, Python
+          </div>        
+        </div>
+    </div>
+  </body>
+</html>
